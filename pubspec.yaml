@@ -1,0 +1,33 @@
+name: flutter_solana_nft_gallery
+description: A Flutter Solana NFT Gallery App
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.3
+  borsh: ^0.3.1+4
+  borsh_annotation: ^0.3.1+5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^13.2.0
+  solana: ^0.30.3
+  solana_mobile_client: ^0.1.1+1
+
+dev_dependencies:
+  analyzer: ^5.13.0
+  bloc_test: ^9.1.6
+  build_runner: ^2.4.8
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
